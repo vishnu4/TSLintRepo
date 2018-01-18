@@ -1,0 +1,84 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "allowUnusedLabels": true,
+    "target": "es5",
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    //"baseUrl": "./scripts",
+    "pretty": true,
+    "declaration": false,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    //"allowJs": true,
+    //"outFile": "./build/tsbundle.js",
+    //"outDir": "./build/",
+    //"paths": {
+    //},
+    "plugins": [ { "name": "tslint-language-service" } ],
+    "lib": [
+      "dom",
+      "es6",
+      "scripthost",
+      "es5",
+      "es2015",
+      "es2015.promise"
+    ],
+    "types": [
+      "angular-ui-bootstrap",
+      "angular",
+      "autolinker",
+      "bootbox",
+      "bootstrap-notify",
+      "bootstrap",
+      "cldrjs",
+      //"d3",
+      "dragula",
+      "globalize",
+      "googlemaps",
+      "google.analytics",
+      "imagesloaded",
+      "jquery.blockui",
+      "jquery.bootstrap.wizard",
+      "jquery",
+      "jqueryui",
+      "jquery.validation",
+      "jsts",
+      "kendo-ui",
+      "masonry-layout",
+      "qtip2",
+      "signalr",
+      "urijs",
+      "moment"
+    ]
+  },
+  //"include": [
+  //  "Scripts/**/*"
+  //],
+  "exclude": [
+    "node_modules",
+    "bower_components",
+    "build"
+  ],
+  "typeRoots": [
+    "node_modules/@types",
+    "node_modules/moment"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    //"forkChecker": true,
+    //"useWebpackText": true,
+    "useBabel": true,
+    "useCache": true
+  },
+  "compileOnSave": true,
+  "buildOnSave": true //,
+  //"atom": { "rewriteTsconfig": false }
+}

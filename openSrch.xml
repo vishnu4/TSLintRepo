@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>CoBRAChem</ShortName>
+  <Description>Search for chemical information from multiple databases</Description>
+  <Tags>CoBRA Chemical</Tags>
+  <Contact>support@cobra2020.com</Contact>
+  <Image width="16" height="16" type="image/gif">http://localhost/cobramvc4portal/favicon.ico</Image>
+  <Url type="text/html" template="http://localhost/cobramvc4portal/Tools/ChemBioSearch/SearchChemBioFromQuery?SearchText={searchTerms}" />
+  <Query role="example" searchTerms="asp.net" />
+</OpenSearchDescription>

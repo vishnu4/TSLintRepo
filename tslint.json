@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+    //"tslint:recommended"
+    //"tslint-microsoft-contrib"
+  ],
+  "rulesDirectory": [
+    //"node_modules/tslint-microsoft-contrib"
+  ],
+  "rules": {
+    //things that should be removed when i move to webpack
+    "no-namespace": false,
+    "no-reference": false,
+    //***********************************
+    "jsdoc-format": false,
+    "comment-format": false
+  }
+}

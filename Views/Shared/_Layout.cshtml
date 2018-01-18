@@ -1,0 +1,281 @@
+@using Kendo.Mvc.UI;
+@using StackExchange.Profiling;
+@using StackExchange.Profiling.Mvc
+@{
+    bool isValidProjectInUrl = CoBRAMVC4Portal.Controllers.baseController.CheckIfValidProjectInURL(ViewContext.RouteData);
+    bool canShowMenu = CoBRAMVC4Portal.Controllers.baseController.CheckIfCanShowMenu(Request.RawUrl);
+    string cultureName = CoBRAMVC4Portal.CustomClasses.Globalization.GetActualCultureName();
+    string prjID = string.Empty;
+    if (isValidProjectInUrl)
+    {
+        prjID = ViewContext.RouteData.Values["id"].ToString();
+    }
+}
+<!DOCTYPE html>
+<html class="no-js" lang="@cultureName.Substring(0, 2)" ng-app="cobraapp" dir="auto">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="CoBRA software is the best known and most widely accepted CBRNE Decision Support System currently used across the Department of Defense and civilian First Responders.  CoBRA provides a wide range of decision-making tools, databases, interactive maps, checklists, incident reporting capabilities and standard response protocols for hundreds of fire & emergency response, defense and law enforcement issues. " />
+    @*<meta name="keywords" content="CoBRA, defense, counterterrorism, homeland security, intelligence research and analysis, chemical biological response aide, military doctrine, consequence management software, nuclear chemical biological weapons defense, WMD, strategic concepts, modeling and simulation, high energy lasers, spectroscopy, stochastic probabilistic analysis, signal image processing" />*@
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="author" href="https://plus.google.com/100425134603038209898" />
+    <link title="CoBRA Chemical Search" type="application/opensearchdescription+xml" rel="search" href='@Url.Content("~/openSrch.xml")' />
+    <link title="CoBRA Project Data Search" type="application/opensearchdescription+xml" rel="search" href='@Url.Content("~/prjSearch.xml")' />
+    <link rel="SHORTCUT ICON" href='@Url.Content("~/favicon.ico")' />
+    <link rel="icon" href='@Url.Content("~/favicon.png")' type="image/png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href='@Url.Content("~/Content/Images/LOGO.png")?w=144'>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href='@Url.Content("~/Content/Images/LOGO.png")?w=114'>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href='@Url.Content("~/Content/Images/LOGO.png")?w=72'>
+    <link rel="apple-touch-icon-precomposed" href='@Url.Content("~/Content/Images/LOGO.png")?w=57'>
+    <meta name="theme-color" content="#ff0000">
+    <meta name="msapplication-TileColor" content="#ff0000" />
+    <meta name="msapplication-TileImage" content='@Url.Content("~/Content/Images/LOGO.png")' />
+    <link rel="manifest" href="@Url.Action("Manifest", "Home", new { Area = "" }, Request.Url.Scheme)">
+    @if (HttpContext.Current.IsDebuggingEnabled)
+    {
+        <link href="@Url.Tag("~/Content/kendo/2017.3.913/kendo.common.min.css")" rel="stylesheet" />
+        <link href="@Url.Tag("~/node_modules/bootstrap/dist/css/bootstrap.css")" rel="stylesheet" />
+        <link href="@Url.Tag("~/node_modules/bootstrap/dist/css/bootstrap-theme.css")" rel="stylesheet" />
+        <link href="@Url.Tag("~/node_modules/hover.css/css/hover.css")" rel="stylesheet" />
+        <link href="@Url.Tag("~/node_modules/qtip2/dist/jquery.qtip.css")" rel="stylesheet" />
+        <link href="@Url.Tag("~/node_modules/jasny-bootstrap/dist/css/jasny-bootstrap.min.css")" rel="stylesheet" />
+        <link href="@Url.Tag("~/Content/SmallSite.css")" rel="stylesheet" />
+        @*<link href="@Url.Tag("~/build/css/css.css")" rel="stylesheet" />*@
+    }
+    else
+    {
+        <link href="@Url.Tag("~/build/css/css.min.css")" rel="stylesheet" />
+    }
+    <link href="@Url.Tag("~/Content/kendo/2017.3.913/kendo.bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    @*<link href="@Url.Tag("~/Content/kendo/2017.3.913/kendo." + CoBRAMVC4Portal.Areas.Admin.Models.UserPrefModel.GetGoodKendoStyle() + ".min.css")" rel="stylesheet" type="text/css" />
+        @if (!string.IsNullOrEmpty(CoBRAMVC4Portal.Areas.Admin.Models.UserPrefModel.GetExtraCoBRAStyle()))
+        {
+            <link rel="stylesheet" href="@Url.Tag(CoBRAMVC4Portal.Areas.Admin.Models.UserPrefModel.GetExtraCoBRAStyle())" />
+        }*@
+    @if ((!string.IsNullOrEmpty(DGI.CoBRA.Web.BusinessObjects.ServerApplicationSettings.AzureInstrumentationKey)) && (Request.Url.Host.IndexOf(@".") > 0))
+    {
+        <script type="text/javascript">
+            var appInsights = window.appInsights || function (config) {
+                function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, u = document, e = window, o = "script", s = u.createElement(o), i, f; for (s.src = config.url || "//az416426.vo.msecnd.net/scripts/a/ai.0.js", u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) r("track" + i.pop()); return r("setAuthenticatedUserContext"), r("clearAuthenticatedUserContext"), config.disableExceptionTracking || (i = "onerror", r("_" + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t["_" + i](config, r, u, e, o), s }), t
+            }({
+                instrumentationKey: "@DGI.CoBRA.Web.BusinessObjects.ServerApplicationSettings.AzureInstrumentationKey"
+            });
+
+            window.appInsights = appInsights;
+            appInsights.trackPageView();
+        </script>
+    }
+    @if (HttpContext.Current.IsDebuggingEnabled)
+    {
+        <script src="@Url.Tag("~/build/js/jqkendo.js")"></script>
+    }
+    else
+    {
+        <script src="@Url.Tag("~/build/js/jqkendo.min.js")"></script>
+    }
+        <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    @RenderSection("extrastyles", required: false)
+</head>
+<body>
+    <!--[if lt IE 9]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <header>
+        <div class="my-fluid-container">
+            <div class="row" id="headDiv">
+                <div class="col-md-1 col-sm-3 col-xs-3" style="padding-right:5px;">
+                    @if (canShowMenu)
+                    {
+                        <div style="margin-left:13px;">
+                            <span style="display:none;" id="connectionEstablished" class="fa fa-circle text-success" title="@CoBRALocalization.MVC.RootResource.ConnectionEstablishedTitle" aria-hidden="true"></span>
+                            <span style="display:none;color:yellow" id="connectionLost" class="fas fa-exclamation-triangle text-warning" title="@CoBRALocalization.MVC.RootResource.ConnectionLostTitle" aria-hidden="true"></span>
+                        </div>
+                        <div class="btn-group" role="group" style="margin-top:5px;">
+                            <button title="@CoBRALocalization.MVC.RootResource.MenuTitle" type="button" class="btn btn-inverse hvr-pulse" data-toggle="offcanvas" data-target="#mainmenu" data-canvas="body">
+                                <span class="fas fa-bars"></span>
+                            </button>
+                            <button id="btncustomMenu" style="display:none;" title="@CoBRALocalization.MVC.RootResource.CustomMenuTitle" type="button" class="btn btn-info hvr-pulse" data-toggle="offcanvas" data-target="#custommenu" data-canvas="body">
+                                <span class="fas fa-bars"></span>
+                            </button>
+                        </div>
+                    }
+                </div>
+                <div class="col-md-1 text-left visible-lg-block visible-md-block" id="divLogo">
+                    @if (canShowMenu)
+                    {
+                        <a href='@Url.Action("Index", "Home", new { Area = "" }, Request.Url.Scheme)' title="@CoBRALocalization.MVC.RootResource.LogoTitle">
+                            @if (string.Compare(CoBRAMVC4Portal.IdentityConfig.CurrentOrganizationName, DGICommon.Models.SubOrganization.DefaultOrgName, System.StringComparison.Ordinal) != 0)
+                            {
+                                <img src='@Url.Content("~/orgimg/" + CoBRAMVC4Portal.IdentityConfig.CurrentUrlEncodedOrgName + ".png")?maxheight=65&404=logo.png' alt="CoBRA" id="imgHeader" />
+                            }
+                            else
+                            {
+                                <img src='@Url.Content("~/Content/images/logo.png")?maxheight=65' alt="CoBRA" id="imgHeader" />
+                            }
+                        </a>
+                    }
+                </div>
+                <div id="projectheading" class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-6 col-xs-6 text-center">
+                    @if (isValidProjectInUrl)
+                    {
+                        //Html.RenderAction("GetProjectHeading", "IncidentHome", new { area = "Incident", id = ViewContext.RouteData.Values["id"] });
+                        @Html.Action("GetProjectHeading", "IncidentHome", new { area = "Incident", id = ViewContext.RouteData.Values["id"] })
+                    }
+                </div>
+                <div class="col-lg-2 col-md-2 visible-lg-block visible-md-block" id="headingbuttons">
+                    <div class="btn-group" role="group">
+                        @if (isValidProjectInUrl)
+                        {
+                            <a title="@CoBRALocalization.MVC.RootResource.HomeTitle" class="btn btn-link hvr-pulse" href='@Url.Action("DefaultPage", "IncidentHome", new { area = "Incident", id = ViewContext.RouteData.Values["id"].ToString() }, null)'><img src='@Url.Content("~/Content/Images/tool_pm.png")?width=25' alt="Home" /></a>
+                            <a title="@CoBRALocalization.MVC.Mapping.MapButtonTitle" class="btn btn-link hvr-pulse" href='@Url.Action("Index", "MainMap", new { area = "Tools", id = ViewContext.RouteData.Values["id"].ToString() }, null)'><img src='@Url.Content("~/Content/Images/tool_map.png")?width=25' alt="Home" /></a>
+                            <a title="@CoBRALocalization.MVC.Weather.WeatherButtonTitle" class="btn btn-link hvr-pulse" data-url="@Url.Action("ViewIncidentWeatherNoCache", "Weather", new { area = "Tools", id = ViewContext.RouteData.Values["id"] }, Request.Url.Scheme)" href='@Url.Action("Index", "Weather", new { area = "Tools", id = ViewContext.RouteData.Values["id"].ToString() }, null)'><img src='@Url.Content("~/Content/Images/tool_weather.png")?width=25' alt="@CoBRALocalization.MVC.Weather.WeatherButtonTitle" /></a>
+                        }
+                        @if (canShowMenu)
+                        {
+                            @Html.Action("GetHelpLink", "Home", new { area = "" })
+                        }
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 text-right">
+                    <div id="divSwitchLang" class="visible-lg-block visible-md-block"></div>
+                    @if (canShowMenu)
+                    {
+                        @Html.Partial("_LogOnPartial")
+                    }
+                </div>
+            </div>
+            @if (isValidProjectInUrl)
+            {
+                <div id="divstatusinfo">
+                    @Html.Action("ViewJustStatus", "Status", new { area = "Tools", id = ViewContext.RouteData.Values["id"] })
+                </div>
+                <div id="divTickerInfo" style="display:none;">
+                    @Html.Action("ViewJustTicker", "Ticker", new { area = "Tools", id = ViewContext.RouteData.Values["id"] })
+                </div>
+            }
+        </div>
+    </header>
+    <div data-role="view" data-layout="default" class="my-fluid-container">
+        @if (canShowMenu)
+        {
+            @Html.MvcSiteMap(CoBRAMVC4Portal.DI.CustomSiteMapCacheKeyGenerator.GetKeyFromSettings(CoBRAMVC4Portal.IdentityConfig.CurrentOrganizationName, false)).Menu("MenuHelperModelJasny");
+        }
+        <div id="divCustomMenu">
+
+        </div>
+        <div id="main">
+            @if (isValidProjectInUrl)
+            {
+                Html.Kendo().Window().Name("Window").Title("Alert").Draggable(true).Resizable(rez => rez.Enabled(true).MinHeight(130).MinWidth(500).MaxHeight(600).MaxWidth(800))
+        .Modal(false).LoadContentFrom("GetUnacknowledgedAlerts", "Alert", new { area = "Tools", id = ViewContext.RouteData.Values["id"] }).Events(ev => ev.Close("Main.dismissallalerts")).Width(550).Height(220).Visible(false).Render();
+                <text>
+                    <audio src='@Url.Content("~/Content/Sounds/whip-whoosh-01.mp3")' preload="none" id="alertnoise"></audio>
+                </text>
+            }
+            @if (CoBRAMVC4Portal.IdentityConfig.LoginUserGUID != Guid.Empty)
+            {
+                Html.Kendo().Window().Name("prefWindow").Title(CoBRALocalization.MVC.RootResource.SetPreferences).Draggable(true).Resizable(rez => rez.Enabled(true))
+                .Modal(true).Width(600).Height(650).Visible(false).Render();
+            }
+            <section style="height:100%">
+                @RenderBody()
+            </section>
+            <input type="hidden" id="txtSelPrj" />
+        </div>
+    </div>
+    <footer>
+        <div class="my-fluid-container">
+            <div class="row" id="footdiv">
+                <div class="col-md-4 col-sm-8 col-xs-8 text-left">
+                    <small><em>@CoBRALocalization.MVC.RootResource.Copyrightfooter &copy; @DateTime.Now.Year @CoBRALocalization.MVC.RootResource.Copyright2footer</em></small>
+                </div>
+                <div class="col-md-2 col-md-offset-5 col-sm-2 col-xs-2 text-right">
+                    @Html.Partial("_ViewSwitcher")
+                </div>
+                <div class="col-md-1 col-sm-2 col-xs-2 text-right">
+                    <a href="https://plus.google.com/100425134603038209898?rel=author" style="display:none;">
+                        <img src='@Url.Content("~/Content/Images/btn_white.png")' alt="Google" />
+                    </a>
+                    <a href="http://www.dynamis.com/" title="Dynamis" target="_blank" rel="noopener noreferrer">
+                        <img src='@Url.Content("~/Content/Images/dynamislogo.png")?height=20' alt="Dynamis" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    @if (HttpContext.Current.IsDebuggingEnabled)
+    {
+        <script src="@Url.Tag("~/build/js/jqueryvalandboot.js")"></script>
+    }
+    else
+    {
+        <script src="@Url.Tag("~/build/js/jqueryvalandboot.min.js")"></script>
+    }
+    <script type="text/javascript">
+            $(document).ready(function () {
+                var initParams = {
+                    SiteName: '@DGI.CoBRA.Web.BusinessObjects.ServerApplicationSettings.SiteName',
+                    ProjectGUID: '@prjID',
+                    GoogleAnalyticKey: '@DGI.CoBRA.Web.BusinessObjects.ServerApplicationSettings.GoogleAnalyticsKey',
+                    GoogleHostName: '@Request.Url.Host.Substring(Request.Url.Host.IndexOf(@".") + 1)',
+                    IsLocal: '@Request.IsLocal',
+                    CultureName: '@cultureName',
+                    ServerBuid: '@DGI.CoBRA.Web.BusinessObjects.ServerApplicationSettings.ServerBuild',
+                    LoadingPrompt: '@CoBRALocalization.MVC.RootResource.LoadingProgress',
+                    CurrentPositionPrompt: '@CoBRALocalization.MVC.RootResource.CurrentPosition',
+                    ClickToChangePrompt:'@CoBRALocalization.MVC.RootResource.ClickToChangeTitle',
+                };
+                Main.initPage(initParams);
+                //Main.initServiceWorker('@Url.Action("ServiceWorker", "Home", new { Area = "" }, Request.Url.Scheme)');
+        });
+    </script>
+    @if (!CoBRAMVC4Portal.CustomClasses.Globalization.IsDefaultCulture())
+    {
+        @Html.Kendo().Culture(cultureName)
+        <script src="@Url.Tag("~/Scripts/kendo/2017.3.913/messages/kendo.messages." + cultureName + ".min.js")"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                Main.initKendoCulture('@cultureName');
+                moment.locale('@cultureName')
+            });
+        </script>
+        if (!cultureName.StartsWith("en", System.StringComparison.OrdinalIgnoreCase))
+        {
+            <script src="@Url.Tag("~/build/momentLocale/" + cultureName.Substring(0,2) + ".js")"></script>
+        }
+    }
+    else if (string.Compare(System.Globalization.CultureInfo.CurrentCulture.Name, "en-MIL", true) == 0)
+    {
+        <script src="@Url.Tag("~/Scripts/Localization/kendoENMil.js")"></script>
+        <script src="@Url.Tag("~/Scripts/Localization/en-mil.js")"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                Main.initKendoCulture('en-MIL');
+                moment.locale('en-MIL')
+            });
+        </script>
+    }
+    @RenderSection("scripts", required: false)
+    @MiniProfiler.Current.RenderIncludes(position: RenderPosition.Right, showTrivial: false, showTimeWithChildren: false, startHidden: false)
+    <script type="text/x-kendo-tmpl" id="postemplate">
+        <div class="listviewtmp">
+            <dl>
+                <dt>${ToolRoleName}</dt>
+                <dd>#= Main.changeNewLine(ToolRoleDescription) #</dd>
+            </dl>
+        </div>
+    </script>
+    <script type="text/x-kendo-tmpl" id="postemplatealt">
+        <div class="listviewalttmp">
+            <dl>
+                <dt>${ToolRoleName}</dt>
+                <dd>#= Main.changeNewLine(ToolRoleDescription) #</dd>
+            </dl>
+        </div>
+    </script>
+</body>
+</html>

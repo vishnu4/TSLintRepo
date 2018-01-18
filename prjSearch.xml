@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>CoBRAIncident</ShortName>
+  <Description>Search for Incident data throughout CoBRA</Description>
+  <Tags>CoBRA Incident Data</Tags>
+  <Contact>support@cobra2020.com</Contact>
+  <Image width="16" height="16" type="image/gif">http://localhost/cobra4mvcportal/favicon.ico</Image>
+  <Url type="text/html" template="http://localhost/cobra4mvcportal/Incident/IncidentHome/IncidentSearch?query={searchTerms}" />
+  <Query role="example" searchTerms="asp.net" />
+</OpenSearchDescription>

@@ -1,0 +1,180 @@
+@using Kendo.Mvc.UI;
+@model  CoBRAMVC4Portal.Models.HomeIndexModel
+@{
+    ViewBag.Title = CoBRALocalization.MVC.RootResource.LogoTitle;
+}
+@section extrastyles {
+}
+<div class="media">
+    <div class="media-left">
+        <a id="msgBtn" onclick="toggleMsgSlide()" class="btn btn-danger btn-xs" style="display:none;" title="@CoBRALocalization.MVC.RootResource.ClickForMessages"><span id="envIcon" class="fa fa-envelope"></span></a>
+    </div>
+    <div class="media-body">
+        <div id="divExpando">
+            @Html.Partial("UserMessageListView")
+        </div>
+    </div>
+</div>
+<div class="bg-info">
+    <div class="row">
+
+        @Html.AntiForgeryToken()
+        <div class="col-sm-5 text-left">
+            <div id="divMultiSelect">
+                <a title="@CoBRALocalization.MVC.RootResource.MultipleIncidentButton" id="btnShow" class="btn btn-default btn-sm" onclick="showMultOpt()">@CoBRALocalization.MVC.RootResource.MultipleIncidentButton</a>
+                <a title="@CoBRALocalization.MVC.RootResource.HideSelectionButton" id="btnHide" class="btn btn-default btn-sm" onclick="hideMultOpt()" style="display:none;">@CoBRALocalization.MVC.RootResource.HideSelectionButton</a>
+                <a title="@CoBRALocalization.MVC.RootResource.ViewSelectedIncidentsButton" id="btnView" class="btn btn-info btn-sm" onclick="viewMultOpt()" style="display:none;">@CoBRALocalization.MVC.RootResource.ViewSelectedIncidentsButton</a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-sm-offset-1 text-right form-inline">
+            <span id="spanPaging">
+                @Html.CheckBox("ispaging", true, new { @class = "checkbox", @onclick = "Main.changePageSize('#prjgrid')" })<label for="ispaging">@CoBRALocalization.MVC.RootResource.ApplyText</label>
+                @(Html.Kendo().NumericTextBox().Name("pagesize").Value(10).Min(5).Max(99).Decimals(0).Format("#").HtmlAttributes(new { @class = "pagesizeclass" }))
+                <label for="pagesize">@CoBRALocalization.MVC.RootResource.kendoItemsFooter</label>
+                <a onclick="Main.changePageSize('#prjgrid')" class="btn btn-info " title="@CoBRALocalization.MVC.RootResource.ApplyButtonDescription">
+                    <span class="fas fa-redo"></span>@CoBRALocalization.MVC.RootResource.ApplyButton
+                </a>
+            </span>
+            <a class="btn btn-primary btn-sm hvr-pulse" href="@Url.Action("IncidentSearch", "IncidentHome", new { area = "Incident" })" title="@CoBRALocalization.MVC.RootResource.SearchTitle">
+                <span class="fa fa-search"></span>
+            </a>
+            <a id="btnCal" class="btn btn-default btn-sm hvr-pulse" href="@Url.Action("ProjectListHomePage", "Home", new { area = "", viewType="Calendar" })" title="@CoBRALocalization.MVC.RootResource.CalendarViewTitle">
+                <span class="fa fa-calendar"></span>
+            </a>
+            <a id="btnLst" style="display:none;" class="btn btn-default btn-sm hvr-pulse" href="@Url.Action("ProjectListHomePage", "Home", new { area = "" })" title="@CoBRALocalization.MVC.RootResource.ListViewTitle">
+                <span class="fa fa-list"></span>
+            </a>
+        </div>
+    </div>
+</div>
+<div id='divprjList'>
+    @if (Model.ViewType == CoBRAMVC4Portal.Models.ProjectViewType.Normal)
+    {
+        { Html.RenderPartial("ProjectList", Model.ProjectList); }
+    }
+    else
+    {
+        if (Model != null && Model.ProjectList != null)
+        {
+            { Html.RenderPartial("ProjectCalendarView", Model.ProjectList); }
+        }
+    }
+</div>
+<br />
+<div>
+    <div class="row">
+        <div class="col-md-2 text-left">
+            @Html.SecureActionLink(string.Format(CoBRALocalization.MVC.RootResource.CreateNewButton, CoBRALocalization.MVC.RootResource.IncidentText), "Create", "ProjectAdmin", new { area = "Admin" }, new { @class = "btn btn-primary", title = CoBRALocalization.MVC.RootResource.CreateNewButton })
+        </div>
+        <div class="col-md-10 text-right">
+            <div class="btn-group">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle btn btn-success" title="@CoBRALocalization.MVC.RootResource.DownloadKMLButton">
+                    @CoBRALocalization.MVC.RootResource.DownloadKMLButton
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <a class="btn btn-default"
+                           href="@Url.Action("ShowAllKML", "File", new { UseExplicitKML = true, IncludeOrgData=false }, Request.Url.Scheme)" title="@CoBRALocalization.MVC.RootResource.IncidentsOnlyButton ">
+                            @CoBRALocalization.MVC.RootResource.IncidentsOnlyButton
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-default" href="@Url.Action("ShowAllKML", "File", new { UseExplicitKML = true, IncludeOrgData = true }, Request.Url.Scheme)" title="@CoBRALocalization.MVC.RootResource.IncidentAndOrgButton ">
+                            @CoBRALocalization.MVC.RootResource.IncidentAndOrgButton
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-default" href="@Url.Action("ShowOrganizationKML", "File", new { UseExplicitKML = true }, Request.Url.Scheme)" title="@CoBRALocalization.MVC.RootResource.OrgOnlyButton ">
+                            @CoBRALocalization.MVC.RootResource.OrgOnlyButton
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <a data-toggle="dropdown" href="#" class="dropdown-toggle btn btn-success" title="@CoBRALocalization.MVC.RootResource.DownloadKMLButton (@CoBRALocalization.MVC.RootResource.NetworkLinkaddendum)">
+                    @CoBRALocalization.MVC.RootResource.DownloadKMLButton &nbsp;(@CoBRALocalization.MVC.RootResource.NetworkLinkaddendum)
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="text-center">
+                        <a class="btn btn-default" href="@Url.Action("ShowAllKML", "File", new { UseExplicitKML = false, IncludeOrgData = false }, Request.Url.Scheme)" title="@CoBRALocalization.MVC.RootResource.IncidentsOnlyButton">
+                            @CoBRALocalization.MVC.RootResource.IncidentsOnlyButton
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a class="btn btn-default" href="@Url.Action("ShowAllKML", "File", new { UseExplicitKML = false, IncludeOrgData = true }, Request.Url.Scheme)" title="@CoBRALocalization.MVC.RootResource.IncidentAndOrgButton ">
+                            @CoBRALocalization.MVC.RootResource.IncidentAndOrgButton
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a class="btn btn-default" href="@Url.Action("ShowOrganizationKML", "File", new { UseExplicitKML = false }, Request.Url.Scheme)" title="@CoBRALocalization.MVC.RootResource.OrgOnlyButton ">
+                            @CoBRALocalization.MVC.RootResource.OrgOnlyButton
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="@Url.Tag("~/Scripts/kendo/2017.3.913/jszip.min.js")"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            Main.cbraPush.client.incidentUpdated = refreshprjgrid;
+            $.connection.hub.start().done(function () {
+                Main.cbraPush.server.watchIncidents('@CoBRAMVC4Portal.IdentityConfig.CurrentOrganizationName');
+            });
+            @if (Model.ViewType == CoBRAMVC4Portal.Models.ProjectViewType.Normal)
+            {
+                <text>
+            $("#btnLst").attr("style", "display: none");
+            $("#btnCal").attr("style", "display: normal");
+            $("#divMultiSelect").attr("style", "display: normal");
+            $("#spanPaging").attr("style", "display: normal");
+            </text>
+            }
+            else
+            {
+                <text>
+            $("#btnCal").attr("style", "display: none");
+            $("#btnLst").attr("style", "display: normal");
+            $("#divMultiSelect").attr("style", "display: none");
+            $("#spanPaging").attr("style", "display: none");
+            </text>
+            }
+        });
+        function refreshprjgrid() {
+            if ($("#prjgrid")) {
+                $("#prjgrid").data("kendoGrid").dataSource.read();
+            }
+            if ($("#prjSched")) {
+                $("#prjSched").data("kendoScheduler").dataSource.read();
+            }
+        }
+        function showMultOpt() {
+            $("#btnShow").css("display", "none");
+            $("#btnHide").css("display", "inline");
+            $("#btnView").css("display", "inline");
+            var grid = $("#prjgrid").data("kendoGrid");
+            grid.showColumn(0);
+        }
+        function hideMultOpt() {
+            $("#btnShow").css("display", "inline");
+            $("#btnHide").css("display", "none");
+            $("#btnView").css("display", "none");
+            var grid = $("#prjgrid").data("kendoGrid");
+            grid.hideColumn(0);
+        }
+        function viewMultOpt() {
+            var selected = [];
+            $('#divprjList input:checked').each(function () {
+                selected.push($(this).attr('name').replace("chk", ""));
+            });
+            var prjIDs = JSON.stringify(selected);
+            var url = '@Url.Action("ViewMultipleIncidents", "IncidentHome", new { area="Incident" }, Request.Url.Scheme)';
+            url = url + "?ids=" + prjIDs;
+            window.location.href = url;
+        }
+    </script>
+}

@@ -1,0 +1,2161 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>CoBRAMVC4Portal</name>
+  </assembly>
+  <members>
+    <member name="T:Resources.EditorLocalization">
+      <summary>
+        A strongly-typed resource class, for looking up localized strings, etc.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.ResourceManager">
+      <summary>
+        Returns the cached ResourceManager instance used by this class.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Culture">
+      <summary>
+        Overrides the current thread's CurrentUICulture property for all
+        resource lookups using this strongly typed resource class.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Bold">
+      <summary>
+        Looks up a localized string similar to Bold.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.CreateLink">
+      <summary>
+        Looks up a localized string similar to Insert hyperlink.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.DeleteFile">
+      <summary>
+        Looks up a localized string similar to Are you sure you want to delete &quot;{0}&quot;?.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.DirectoryNotFound">
+      <summary>
+        Looks up a localized string similar to A directory with this name was not found..
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.EmptyFolder">
+      <summary>
+        Looks up a localized string similar to Empty Folder.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.FontName">
+      <summary>
+        Looks up a localized string similar to Select font family.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.FontNameInherit">
+      <summary>
+        Looks up a localized string similar to (inherited font).
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.FontSize">
+      <summary>
+        Looks up a localized string similar to Select font size.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.FontSizeInherit">
+      <summary>
+        Looks up a localized string similar to (inherited size).
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.FormatBlock">
+      <summary>
+        Looks up a localized string similar to Select block type.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Indent">
+      <summary>
+        Looks up a localized string similar to Indent.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.InsertHtml">
+      <summary>
+        Looks up a localized string similar to Insert HTML.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.InsertImage">
+      <summary>
+        Looks up a localized string similar to Insert image.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.InsertOrderedList">
+      <summary>
+        Looks up a localized string similar to Insert ordered list.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.InsertUnorderedList">
+      <summary>
+        Looks up a localized string similar to Insert unordered list.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.InvalidFileType">
+      <summary>
+        Looks up a localized string similar to The selected file \&quot;{0}\&quot; is not valid. Supported file types are {1}..
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Italic">
+      <summary>
+        Looks up a localized string similar to Italic.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.JustifyCenter">
+      <summary>
+        Looks up a localized string similar to Center text.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.JustifyFull">
+      <summary>
+        Looks up a localized string similar to Justify.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.JustifyLeft">
+      <summary>
+        Looks up a localized string similar to Align text left.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.JustifyRight">
+      <summary>
+        Looks up a localized string similar to Align text right.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.OrderBy">
+      <summary>
+        Looks up a localized string similar to Arrange by:.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.OrderByName">
+      <summary>
+        Looks up a localized string similar to Name.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.OrderBySize">
+      <summary>
+        Looks up a localized string similar to Size.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Outdent">
+      <summary>
+        Looks up a localized string similar to Outdent.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.OverwriteFile">
+      <summary>
+        Looks up a localized string similar to &apos;A file with name &quot;{0}&quot; already exists in the current directory. Do you want to overwrite it?.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Strikethrough">
+      <summary>
+        Looks up a localized string similar to Strikethrough.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Style">
+      <summary>
+        Looks up a localized string similar to Styles.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Underline">
+      <summary>
+        Looks up a localized string similar to Underline.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.Unlink">
+      <summary>
+        Looks up a localized string similar to Remove hyperlink.
+      </summary>
+    </member>
+    <member name="P:Resources.EditorLocalization.UploadFile">
+      <summary>
+        Looks up a localized string similar to Upload.
+      </summary>
+    </member>
+    <member name="T:Resources.GridLocalization">
+      <summary>
+        A strongly-typed resource class, for looking up localized strings, etc.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.ResourceManager">
+      <summary>
+        Returns the cached ResourceManager instance used by this class.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Culture">
+      <summary>
+        Overrides the current thread's CurrentUICulture property for all
+        resource lookups using this strongly typed resource class.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.AddNew">
+      <summary>
+        Looks up a localized string similar to Add new record.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Cancel">
+      <summary>
+        Looks up a localized string similar to Cancel.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.CancelChanges">
+      <summary>
+        Looks up a localized string similar to Cancel changes.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Delete">
+      <summary>
+        Looks up a localized string similar to Delete.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.DeleteConfirmation">
+      <summary>
+        Looks up a localized string similar to Are you sure you want to delete this record?.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.DisplayingItems">
+      <summary>
+        Looks up a localized string similar to Displaying items {0} - {1} of {2}.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Edit">
+      <summary>
+        Looks up a localized string similar to Edit.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Filter">
+      <summary>
+        Looks up a localized string similar to Filter.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterAnd">
+      <summary>
+        Looks up a localized string similar to And.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterBoolIsFalse">
+      <summary>
+        Looks up a localized string similar to is false.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterBoolIsTrue">
+      <summary>
+        Looks up a localized string similar to is true.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterClear">
+      <summary>
+        Looks up a localized string similar to Clear Filter.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterDateEq">
+      <summary>
+        Looks up a localized string similar to Is equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterDateGe">
+      <summary>
+        Looks up a localized string similar to Is after or equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterDateGt">
+      <summary>
+        Looks up a localized string similar to Is after.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterDateLe">
+      <summary>
+        Looks up a localized string similar to Is before or equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterDateLt">
+      <summary>
+        Looks up a localized string similar to Is before.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterDateNe">
+      <summary>
+        Looks up a localized string similar to Is not equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterEnumEq">
+      <summary>
+        Looks up a localized string similar to Is equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterEnumNe">
+      <summary>
+        Looks up a localized string similar to Is not equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterForeignKeyEq">
+      <summary>
+        Looks up a localized string similar to Is equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterForeignKeyNe">
+      <summary>
+        Looks up a localized string similar to Is not equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterNumberEq">
+      <summary>
+        Looks up a localized string similar to Is equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterNumberGe">
+      <summary>
+        Looks up a localized string similar to Is greater than or equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterNumberGt">
+      <summary>
+        Looks up a localized string similar to Is greater than.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterNumberLe">
+      <summary>
+        Looks up a localized string similar to Is less than or equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterNumberLt">
+      <summary>
+        Looks up a localized string similar to Is less than.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterNumberNe">
+      <summary>
+        Looks up a localized string similar to Is not equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterOr">
+      <summary>
+        Looks up a localized string similar to Or.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterSelectValue">
+      <summary>
+        Looks up a localized string similar to -Select value-.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterShowRows">
+      <summary>
+        Looks up a localized string similar to Show rows with value that.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterStringEndsWith">
+      <summary>
+        Looks up a localized string similar to Ends with.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterStringEq">
+      <summary>
+        Looks up a localized string similar to Is equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterStringNe">
+      <summary>
+        Looks up a localized string similar to Is not equal to.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterStringNotSubstringOf">
+      <summary>
+        Looks up a localized string similar to Does not contain.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterStringStartsWith">
+      <summary>
+        Looks up a localized string similar to Starts with.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.FilterStringSubstringOf">
+      <summary>
+        Looks up a localized string similar to Contains.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.GroupHint">
+      <summary>
+        Looks up a localized string similar to Drag a column header and drop it here to group by that column.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Insert">
+      <summary>
+        Looks up a localized string similar to Insert.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.NoRecords">
+      <summary>
+        Looks up a localized string similar to No records to display..
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Page">
+      <summary>
+        Looks up a localized string similar to Page .
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.PageOf">
+      <summary>
+        Looks up a localized string similar to of {0}.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Refresh">
+      <summary>
+        Looks up a localized string similar to Refresh.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.SaveChanges">
+      <summary>
+        Looks up a localized string similar to Save changes.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Select">
+      <summary>
+        Looks up a localized string similar to Select.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.SortedAsc">
+      <summary>
+        Looks up a localized string similar to sorted ascending.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.SortedDesc">
+      <summary>
+        Looks up a localized string similar to sorted descending.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.UnGroup">
+      <summary>
+        Looks up a localized string similar to ungroup.
+      </summary>
+    </member>
+    <member name="P:Resources.GridLocalization.Update">
+      <summary>
+        Looks up a localized string similar to Update.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Admin.Controllers.API.UserAPIController">
+      <summary>
+        Gets information based on user data
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.API.UserAPIController.GetUserData">
+      <summary>
+        Gets the current users metadata.
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.API.UserAPIController.GetUsersInProject(System.Guid)">
+      <summary>
+        Gets a list of all the users in the specified project.
+      </summary>
+      <param name="id">The project ID.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException"></exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.API.UserAPIController.GetUsersInOrganization(System.String)">
+      <summary>
+        Gets a list of all users in the specified organization.
+      </summary>
+      <param name="OrganizationName">Name of the organization.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException"></exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.API.UserAPIController.SetLocation(System.Guid,System.Nullable{System.Double},System.Nullable{System.Double})">
+      <summary>
+        Sets the location for the current user
+      </summary>
+      <param name="id">The incident ID where this entry should be made</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.PositionController.GetPositionModelByIncidentsConfigIncident(System.Guid)">
+      <summary>
+        Method gets list of positions based on an incident guid
+      </summary>
+      <param name="id">id in GUID format</param>
+      <returns>important to realize that this method will get the configuration incident from the id supplied, and use that</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.PositionController.GetPositionModelByIncident(System.Guid,DGI.CoBRAPlugInSDK.ConfigDBObjects.IncidentType,System.Guid)">
+      <summary>
+        Gets a list of positions based on an incident (no drilling down to the config incident)
+      </summary>
+      <param name="prjGUID">the specific incident you want to know about</param>
+      <param name="incType"></param>
+      <param name="desiredOpPeriodGUID"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.ProjectAdminController.CanDeleteProject(System.Guid)">
+      <summary>
+        Method returns true or false based on whether the user can delete the project, or just removed it from his organization
+      </summary>
+      <param name="prjGUID"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.UserController.ResetApplicableUserPreferences(DGI.CoBRA.Web.BusinessObjects.WebCoBRAUser)">
+      <summary>
+        i save some user values in user preferences in order to avoid too many SQL calls.  instead of just changing these preferences to the new ones, i'm going to
+        reset them for now.  Easy enough to change in the future if this becomes a pain
+      </summary>
+      <param name="usr"></param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Controllers.UserController.RemoveUserListFromCache(System.String)">
+      <summary>
+        Cached user list available to all.  for easy access.  Removing based on organization in case a user changed
+      </summary>
+      <param name="organizationName"></param>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Admin.Models.UserModel">
+      <summary>
+        user model used for creating/editing users
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Admin.Models.UserModel.UserName">
+      <summary>
+        The name of the particular user
+      </summary>
+      <value></value>
+      <returns></returns>
+      <remarks></remarks>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Admin.Models.UserPrefModel.GetExtraCoBRAStyle(System.Collections.Generic.IEnumerable{DGI.CoBRA.Web.BusinessObjects.ConfigObjects.UserPrefObject})">
+      <summary>
+        an extra style to add, depending on what mode you're using.  if you're on mobile, this is a good way to determine if the user is in night mode or not
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Audit.Controllers.API.ExceptionAPIController.GetServerExceptions(Kendo.Mvc.UI.DataSourceRequest)">
+      <summary>
+        Returns a list of exceptions from the Server database
+      </summary>
+      <param name="request">kendo request object</param>
+      <returns>kendo DataSourceResult object</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.EMISSARY.Controllers.DashboardController.GetPossibleCards">
+      <summary>
+        Gets a list of 'tool references', which is basically just a dictionary key/value pair of cobralinkname and their more user-friendly names
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.ApiDescriptionExtensions.GetFriendlyId(System.Web.Http.Description.ApiDescription)">
+      <summary>
+        Generates an URI-friendly ID for the <see cref="T:System.Web.Http.Description.ApiDescription"/>. E.g. "Get-Values-id_name" instead of "GetValues/{id}?name={name}"
+      </summary>
+      <param name="description">
+        The <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+      </param>
+      <returns>The ID as a string.</returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfig">
+      <summary>
+        Use this class to customize the Help Page.
+        For example you can set a custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> to supply the documentation
+        or you can provide the samples for the requests/responses.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.Controllers.HelpController">
+      <summary>
+        The controller that will handle requests for the help page.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetDocumentationProvider(System.Web.Http.HttpConfiguration,System.Web.Http.Description.IDocumentationProvider)">
+      <summary>
+        Sets the documentation provider for help page.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="documentationProvider">The documentation provider.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleObjects(System.Web.Http.HttpConfiguration,System.Collections.Generic.IDictionary{System.Type,System.Object})">
+      <summary>
+        Sets the objects that will be used by the formatters to produce sample requests/responses.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="sampleObjects">The sample objects.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String)">
+      <summary>
+        Sets the sample request directly for the specified media type and action.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="sample">The sample request.</param>
+      <param name="mediaType">The media type.</param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String,System.String[])">
+      <summary>
+        Sets the sample request directly for the specified media type and action with parameters.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="sample">The sample request.</param>
+      <param name="mediaType">The media type.</param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+      <param name="parameterNames">The parameter names.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String)">
+      <summary>
+        Sets the sample request directly for the specified media type of the action.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="sample">The sample response.</param>
+      <param name="mediaType">The media type.</param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String,System.String[])">
+      <summary>
+        Sets the sample response directly for the specified media type of the action with specific parameters.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="sample">The sample response.</param>
+      <param name="mediaType">The media type.</param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+      <param name="parameterNames">The parameter names.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForMediaType(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue)">
+      <summary>
+        Sets the sample directly for all actions with the specified media type.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="sample">The sample.</param>
+      <param name="mediaType">The media type.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForType(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.Type)">
+      <summary>
+        Sets the sample directly for all actions with the specified type and media type.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="sample">The sample.</param>
+      <param name="mediaType">The media type.</param>
+      <param name="type">The parameter type or return type of an action.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String)">
+      <summary>
+        Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+        The help page will use this information to produce more accurate request samples.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="type">The type.</param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String,System.String[])">
+      <summary>
+        Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+        The help page will use this information to produce more accurate request samples.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="type">The type.</param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+      <param name="parameterNames">The parameter names.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String)">
+      <summary>
+        Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> returned as part of the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+        The help page will use this information to produce more accurate response samples.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="type">The type.</param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String,System.String[])">
+      <summary>
+        Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> returned as part of the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+        The help page will use this information to produce more accurate response samples.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="type">The type.</param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+      <param name="parameterNames">The parameter names.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageSampleGenerator(System.Web.Http.HttpConfiguration)">
+      <summary>
+        Gets the help page sample generator.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <returns>The help page sample generator.</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.SetHelpPageSampleGenerator(System.Web.Http.HttpConfiguration,CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator)">
+      <summary>
+        Sets the help page sample generator.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="sampleGenerator">The help page sample generator.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.GetModelDescriptionGenerator(System.Web.Http.HttpConfiguration)">
+      <summary>
+        Gets the model description generator.
+      </summary>
+      <param name="config">The configuration.</param>
+      <returns>
+        The <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator"/>
+      </returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageApiModel(System.Web.Http.HttpConfiguration,System.String)">
+      <summary>
+        Gets the model that represents an API displayed on the help page. The model is initialized on the first call and cached for subsequent calls.
+      </summary>
+      <param name="config">
+        The <see cref="T:System.Web.Http.HttpConfiguration"/>.
+      </param>
+      <param name="apiDescriptionId">
+        The <see cref="T:System.Web.Http.Description.ApiDescription"/> ID.
+      </param>
+      <returns>
+        An <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel"/>
+      </returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.ModelDescriptions.ModelDescription">
+      <summary>
+        Describes a type model.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator">
+      <summary>
+        Generates model descriptions for given types.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.ModelDescriptions.ModelNameAttribute">
+      <summary>
+        Use this attribute to change the name of the <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.ModelDescriptions.ModelDescription"/> generated for a type.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel">
+      <summary>
+        The model that represents an API displayed on the help page.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel"/> class.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription">
+      <summary>
+        Gets or sets the <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription"/> that describes the API.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.UriParameters">
+      <summary>
+        Gets or sets the <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.ModelDescriptions.ParameterDescription"/> collection that describes the URI parameters for the API.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.RequestDocumentation">
+      <summary>
+        Gets or sets the documentation for the request.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.RequestModelDescription">
+      <summary>
+        Gets or sets the <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.ModelDescriptions.ModelDescription"/> that describes the request body.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.RequestBodyParameters">
+      <summary>
+        Gets the request body parameter descriptions.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.ResourceDescription">
+      <summary>
+        Gets or sets the <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.ModelDescriptions.ModelDescription"/> that describes the resource.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.ResourceProperties">
+      <summary>
+        Gets the resource property descriptions.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.SampleRequests">
+      <summary>
+        Gets the sample requests associated with the API.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.SampleResponses">
+      <summary>
+        Gets the sample responses associated with the API.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.Models.HelpPageApiModel.ErrorMessages">
+      <summary>
+        Gets the error messages associated with this model.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator">
+      <summary>
+        This class will generate the samples for the help page.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.#ctor">
+      <summary>
+        Initializes a new instance of the <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator"/> class.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.ActualHttpMessageTypes">
+      <summary>
+        Gets CLR types that are used as the content of <see cref="T:System.Net.Http.HttpRequestMessage"/> or <see cref="T:System.Net.Http.HttpResponseMessage"/>.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples">
+      <summary>
+        Gets the objects that are used directly as samples for certain actions.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects">
+      <summary>
+        Gets the objects that are serialized as samples by the supported formatters.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories">
+      <summary>
+        Gets factories for the objects that the supported formatters will serialize as samples. Processed in order,
+        stopping when the factory successfully returns a non-<see langref="null"/> object.
+      </summary>
+      <remarks>
+        Collection includes just <see cref="M:CoBRAMVC4Portal.Areas.HelpPage.ObjectGenerator.GenerateObject(System.Type)"/> initially. Use
+        <code>SampleObjectFactories.Insert(0, func)</code> to provide an override and
+        <code>SampleObjectFactories.Add(func)</code> to provide a fallback.
+      </remarks>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.GetSampleRequests(System.Web.Http.Description.ApiDescription)">
+      <summary>
+        Gets the request body samples for a given <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+      </summary>
+      <param name="api">
+        The <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+      </param>
+      <returns>The samples keyed by media type.</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.GetSampleResponses(System.Web.Http.Description.ApiDescription)">
+      <summary>
+        Gets the response body samples for a given <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+      </summary>
+      <param name="api">
+        The <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+      </param>
+      <returns>The samples keyed by media type.</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.GetSample(System.Web.Http.Description.ApiDescription,CoBRAMVC4Portal.Areas.HelpPage.SampleDirection)">
+      <summary>
+        Gets the request or response body samples.
+      </summary>
+      <param name="api">
+        The <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+      </param>
+      <param name="sampleDirection">The value indicating whether the sample is for a request or for a response.</param>
+      <returns>The samples keyed by media type.</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.GetActionSample(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Type,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue,CoBRAMVC4Portal.Areas.HelpPage.SampleDirection)">
+      <summary>
+        Search for samples that are provided directly through <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples"/>.
+      </summary>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+      <param name="parameterNames">The parameter names.</param>
+      <param name="type">The CLR type.</param>
+      <param name="formatter">The formatter.</param>
+      <param name="mediaType">The media type.</param>
+      <param name="sampleDirection">The value indicating whether the sample is for a request or for a response.</param>
+      <returns>The sample that matches the parameters.</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject(System.Type)">
+      <summary>
+        Gets the sample object that will be serialized by the formatters.
+        First, it will look at the <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects"/>. If no sample object is found, it will try to create
+        one using <see cref="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator,System.Type)"/> (which wraps an <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.ObjectGenerator"/>) and other
+        factories in <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories"/>.
+      </summary>
+      <param name="type">The type.</param>
+      <returns>The sample object.</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.ResolveHttpRequestMessageType(System.Web.Http.Description.ApiDescription)">
+      <summary>
+        Resolves the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+      </summary>
+      <param name="api">
+        The <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+      </param>
+      <returns>The type.</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.ResolveType(System.Web.Http.Description.ApiDescription,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},CoBRAMVC4Portal.Areas.HelpPage.SampleDirection,System.Collections.ObjectModel.Collection{System.Net.Http.Formatting.MediaTypeFormatter}@)">
+      <summary>
+        Resolves the type of the action parameter or return value when <see cref="T:System.Net.Http.HttpRequestMessage"/> or <see cref="T:System.Net.Http.HttpResponseMessage"/> is used.
+      </summary>
+      <param name="api">
+        The <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+      </param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+      <param name="parameterNames">The parameter names.</param>
+      <param name="sampleDirection">The value indicating whether the sample is for a request or a response.</param>
+      <param name="formatters">The formatters.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleGenerator.WriteSampleObjectUsingFormatter(System.Net.Http.Formatting.MediaTypeFormatter,System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue)">
+      <summary>
+        Writes the sample object using formatter.
+      </summary>
+      <param name="formatter">The formatter.</param>
+      <param name="value">The value.</param>
+      <param name="type">The type.</param>
+      <param name="mediaType">Type of the media.</param>
+      <returns></returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey">
+      <summary>
+        This is used to identify the place where the sample should be applied.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue)">
+      <summary>
+        Creates a new <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey"/> based on media type.
+      </summary>
+      <param name="mediaType">The media type.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue,System.Type)">
+      <summary>
+        Creates a new <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey"/> based on media type and CLR type.
+      </summary>
+      <param name="mediaType">The media type.</param>
+      <param name="type">The CLR type.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.#ctor(CoBRAMVC4Portal.Areas.HelpPage.SampleDirection,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+      <summary>
+        Creates a new <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey"/> based on <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>, controller name, action name and parameter names.
+      </summary>
+      <param name="sampleDirection">
+        The <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.
+      </param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+      <param name="parameterNames">The parameter names.</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue,CoBRAMVC4Portal.Areas.HelpPage.SampleDirection,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+      <summary>
+        Creates a new <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey"/> based on media type, <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>, controller name, action name and parameter names.
+      </summary>
+      <param name="mediaType">The media type.</param>
+      <param name="sampleDirection">
+        The <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.
+      </param>
+      <param name="controllerName">Name of the controller.</param>
+      <param name="actionName">Name of the action.</param>
+      <param name="parameterNames">The parameter names.</param>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.ControllerName">
+      <summary>
+        Gets the name of the controller.
+      </summary>
+      <value>
+        The name of the controller.
+      </value>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.ActionName">
+      <summary>
+        Gets the name of the action.
+      </summary>
+      <value>
+        The name of the action.
+      </value>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.MediaType">
+      <summary>
+        Gets the media type.
+      </summary>
+      <value>
+        The media type.
+      </value>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.ParameterNames">
+      <summary>
+        Gets the parameter names.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.SampleDirection">
+      <summary>
+        Gets the <see cref="P:CoBRAMVC4Portal.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.ImageSample">
+      <summary>
+        This represents an image sample on the help page. There's a display template named ImageSample associated with this class.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.ImageSample.#ctor(System.String)">
+      <summary>
+        Initializes a new instance of the <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.ImageSample"/> class.
+      </summary>
+      <param name="src">The URL of an image.</param>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.InvalidSample">
+      <summary>
+        This represents an invalid sample on the help page. There's a display template named InvalidSample associated with this class.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.ObjectGenerator">
+      <summary>
+        This class will create an object of a given type and populate it with sample data.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.ObjectGenerator.GenerateObject(System.Type)">
+      <summary>
+        Generates an object for a given type. The type needs to be public, have a public default constructor and settable public properties/fields. Currently it supports the following types:
+        Simple types: <see cref="T:System.Int32"/>, <see cref="T:System.String"/>, <see cref="T:System.Enum"/>, <see cref="T:System.DateTime"/>, <see cref="T:System.Uri"/>, etc.
+        Complex types: POCO types.
+        Nullables: <see cref="T:System.Nullable`1"/>.
+        Arrays: arrays of simple types or complex types.
+        Key value pairs: <see cref="T:System.Collections.Generic.KeyValuePair`2"/>
+        Tuples: <see cref="T:System.Tuple`1"/>, <see cref="T:System.Tuple`2"/>, etc
+        Dictionaries: <see cref="T:System.Collections.Generic.IDictionary`2"/> or anything deriving from <see cref="T:System.Collections.Generic.IDictionary`2"/>.
+        Collections: <see cref="T:System.Collections.Generic.IList`1"/>, <see cref="T:System.Collections.Generic.IEnumerable`1"/>, <see cref="T:System.Collections.Generic.ICollection`1"/>, <see cref="T:System.Collections.IList"/>, <see cref="T:System.Collections.IEnumerable"/>, <see cref="T:System.Collections.ICollection"/> or anything deriving from <see cref="T:System.Collections.Generic.ICollection`1"/> or <see cref="T:System.Collections.IList"/>.
+        Queryables: <see cref="T:System.Linq.IQueryable"/>, <see cref="T:System.Linq.IQueryable`1"/>.
+      </summary>
+      <param name="type">The type.</param>
+      <returns>An object of the given type.</returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.SampleDirection">
+      <summary>
+        Indicates whether the sample is used for request or response
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.TextSample">
+      <summary>
+        This represents a preformatted text sample on the help page. There's a display template named TextSample associated with this class.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.HelpPage.XmlDocumentationProvider">
+      <summary>
+        A custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> that reads the API documentation from an XML documentation file.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.HelpPage.XmlDocumentationProvider.#ctor(System.String)">
+      <summary>
+        Initializes a new instance of the <see cref="T:CoBRAMVC4Portal.Areas.HelpPage.XmlDocumentationProvider"/> class.
+      </summary>
+      <param name="documentPath">The physical path to XML document.</param>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController">
+      <summary>
+        API controller meant to create/update and list projects.  This is another name for 'incident'
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.GetProjectList(System.String,System.Nullable{System.DateTime})">
+      <summary>
+        Returns a List of Project Business objects, filtered by Organization and date created
+      </summary>
+      <param name="OrganizationName">The organization that the projects belong to.  Can be blank if you are a system administrator</param>
+      <param name="SinceDate">Return projects only since a certain UTC date.  optional</param>
+      <returns>A list of project objects</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.GetProjectListDetailed">
+      <summary>
+        Returns a list of projects, simliar to other method, but tailor fit to the organization the user already belongs too.  Additionally, will give
+        extra information like 'date of last logentry', etc.
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.CreateProject(System.String,System.Guid,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.DateTime})">
+      <summary>
+        Creates a new project.
+      </summary>
+      <param name="OrganizationName">Name of the organization.</param>
+      <param name="id">The identifier.</param>
+      <param name="ProjectName">Name of the project.</param>
+      <param name="IncidentType">Type of the incident.</param>
+      <param name="ProjectDescription">The project description.</param>
+      <param name="Street1">The street1.</param>
+      <param name="Street2">The street2.</param>
+      <param name="City">The city.</param>
+      <param name="State">The state.</param>
+      <param name="Zip">The zip.</param>
+      <param name="Country">The country.</param>
+      <param name="County">The county.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <param name="StartDate">The start date.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.UpdateProject(System.Guid,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.DateTime})">
+      <summary>
+        Updates a project with new information
+      </summary>
+      <param name="id">uniqueidentifier of the project you want to update</param>
+      <param name="ProjectName">Name of the project.</param>
+      <param name="ProjectDescription">The project description.</param>
+      <param name="Street1">The street1.</param>
+      <param name="Street2">The street2.</param>
+      <param name="City">The city.</param>
+      <param name="State">The state.</param>
+      <param name="Zip">The zip.</param>
+      <param name="Country">The country.</param>
+      <param name="County">The county.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <param name="StartDate">The start date.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.ArchiveProject(System.Guid)">
+      <summary>
+        Archives a project.  This is not permanant
+      </summary>
+      <param name="id">the uniqueidentifier of the project to archive</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.DeleteProject(System.Guid)">
+      <summary>
+        Deletes a project permanantly
+      </summary>
+      <param name="id">uniqueidentifier of the project to be deleted</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.RestoreArchivedProject(System.Guid)">
+      <summary>
+        Restores an archived project back to the normal list
+      </summary>
+      <param name="id">uniqueidentifier of hte project to be restored</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.GetBackEndProjectFromIncidents(System.String,System.String)">
+      <summary>
+        Returns a list of 'Backend Project' Guids for each incident provided.
+      </summary>
+      <param name="OrganizationName">The organization name the projects belong to</param>
+      <param name="IncidentList">a comma delimited string of uniqueidentifiers, representing the projects you want related 'backend' projects for </param>
+      <returns>A list of uniqueidentifiers, each representing a backend project</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.API.IncidentAPIController.GetBackEndProject(System.String,System.String)">
+      <summary>
+        Returns the appropriate BackEnd Project based on Organization and Incident Type
+      </summary>
+      <param name="OrganizationName">Organization where the backend project belongs</param>
+      <param name="IncidentType">incident type where the backend project belongs</param>
+      <returns>a uniqueidentifier representing the requested backend project</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.baseIncidentController.DemoteLogEntry(System.Guid,System.String,System.Guid)">
+      <summary>
+        Takes a logentry by it's guid, and changes it's priority to be 'invisible'
+      </summary>
+      <param name="LogEntryGUID">the guid of the logentry to be demoted</param>
+      <param name="toolname">the name of the tool where the logentry resides.  Used for pushing signalR updates</param>
+      <param name="projectGUID">the project where the logentry resides.  Used for pushing signalR updates</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.baseIncidentController.DemoteEntriesByStaticGUID(System.Guid,System.String,System.Guid,System.Guid)">
+      <summary>
+        Takes logentries by their static guid, and changes all of their priorities to be 'invisible'
+      </summary>
+      <param name="StaticGUID">the common shared staticGUID for all of the logentries</param>
+      <param name="toolname">the name of the tool where the logentry resides.  Used for pushing signalR updates</param>
+      <param name="projectGUID">the project where the logentry resides.  Used for pushing signalR updates</param>
+      <param name="LogEntryGUID">the logentryGUID for the initial entry that made this request.  Used for signalR updates</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.baseIncidentController.ChangePriorityofEntriesByStaticGUID(System.Guid,System.String,System.Guid,DGI.CoBRAPlugInSDK.LogPriority)">
+      <summary>
+        takes the most recnet logentry by it's staticGUID, and changes it's priority
+      </summary>
+      <param name="staticGUID">the common shared staticGUID for all of the logentries</param>
+      <param name="toolName">the name of the tool where the logentry resides.  Used for pushing signalR updates</param>
+      <param name="projectGUID">the project where the logentry resides.  Used for pushing signalR updates</param>
+      <param name="newPriority">the new priority of the logentries that you want</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.IncidentHomeController.ViewProjectHeading">
+      <summary>
+        method used to view the project heading.  Now only the mobile site uses this method, and signalR has made the non-mobile site use GetProjectHeading
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Incident.Controllers.IncidentHomeController.GetProjectHeading(System.Guid)">
+      <summary>
+        method used to refresh the project heading
+      </summary>
+      <param name="id"></param>
+      <returns></returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ChatAPIController">
+      <summary>
+        methods for 3rd party applications to interact with our chat interface
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ChatAPIController.SendMessage(System.Guid,System.String,System.Guid,System.Nullable{System.Double},System.Nullable{System.Double})">
+      <summary>
+        Sends a Chat message
+      </summary>
+      <param name="id">The identifier.</param>
+      <param name="MessageText">The message text.</param>
+      <param name="SelectedRoom">The selected room.</param>
+      <param name="Lat">The users latitude</param>
+      <param name="Lon">The users longitude</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ChemBioAPIController">
+      <summary>
+        Public API Controller to allow searching of the chem/bio databases available in COBRA
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ChemBioAPIController.GetDetailAsHTML(System.String,System.String,System.String)">
+      <summary>
+        returns an HTML page as a string containing a view about the chemical queried
+      </summary>
+      <param name="id">the incident that the detail request was made in.  Can be blank</param>
+      <param name="detailID">the ID of the chemical you are looking for</param>
+      <param name="DataSource">the chem bio database you are getting data from. Can be DUPONT,ERG,KAPPLER,MSDS,NIOSH,RIDS,TRELLEBORG,USCGChrisManual</param>
+      <returns>a string object in HTML format</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ChemBioAPIController.PerformSearch(System.String,DGI.CoBRAPlugInSDK.UniversalSearch.SearchFieldType,DGI.CoBRAPlugInSDK.UniversalSearch.SearchType)">
+      <summary>
+        searches all chem/bio databases available in CoBRA, and returns a list of matches
+      </summary>
+      <param name="searchText">the text to search for</param>
+      <param name="searchField">can be CHEMICAL, UN_NUMBER, CAS_NUMBER</param>
+      <param name="searchType">can be  IS, CONTAINS, STARTS_WITH</param>
+      <returns>a list of 'searchresultobject'</returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Tools.Controllers.API.DocumentReaderAPIController">
+      <summary>
+        Seraches an organizations custom document library
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.DocumentReaderAPIController.PerformSearch(System.String,DGI.CoBRAPlugInSDK.UniversalSearch.SearchType,System.String)">
+      <summary>
+        searches all documents availabe in cobra
+      </summary>
+      <param name="searchText">the text to search for</param>
+      <param name="searchType">can be  IS, CONTAINS, STARTS_WITH</param>
+      <param name="organizationName">the Organization whose documents you want to search</param>
+      <returns></returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Tools.Controllers.API.RolesManagerAPIController">
+      <summary>
+        Public Interface for working with Tool Roles / Positions / etc.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.RolesManagerAPIController.GetToolRolesAsJSON(System.String,System.String)">
+      <summary>
+        Public method to get Tool Role list by chart GUID
+      </summary>
+      <param name="SelectedChart">Chart GUID</param>
+      <param name="id">incident GUID</param>
+      <returns>a list of ToolRole objects</returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController">
+      <summary>
+        methods for sending or retrieving sensor data
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.CreateSensorEntryWithSensorStatus(System.Guid,System.String,System.Guid,System.Boolean,System.Boolean,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.DateTime})">
+      <summary>
+        Creates the sensor entry with sensor status.
+      </summary>
+      <param name="id">The identifier.</param>
+      <param name="sensorName">Name of the sensor.</param>
+      <param name="sensorGUID">The sensor unique identifier.</param>
+      <param name="IsEnabled">
+        if set to <c>true</c> [is enabled].
+      </param>
+      <param name="isFaulted">
+        if set to <c>true</c> [is faulted].
+      </param>
+      <param name="sensorType">Type of the sensor.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <param name="inAlarm">The in alarm.</param>
+      <param name="ReadingLevel">The reading level.</param>
+      <param name="ReadingUnits">The reading units.</param>
+      <param name="Agent">The agent.</param>
+      <param name="sensorStatus">The sensor status.</param>
+      <param name="statusDescription">The status description.</param>
+      <param name="ReadingID">The reading identifier.</param>
+      <param name="TimeOfReading">The time of reading.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.CreateSensorEntry(System.Guid,System.String,System.Guid,System.String,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.DateTime})">
+      <summary>
+        Creates the sensor entry.
+      </summary>
+      <param name="id">The identifier.</param>
+      <param name="sensorName">Name of the sensor.</param>
+      <param name="sensorGUID">The sensor unique identifier.</param>
+      <param name="sensorType">Type of the sensor.</param>
+      <param name="IsEnabled">
+        if set to <c>true</c> [is enabled].
+      </param>
+      <param name="inAlarm">
+        if set to <c>true</c> [in alarm].
+      </param>
+      <param name="isFaulted">
+        if set to <c>true</c> [is faulted].
+      </param>
+      <param name="ReadingLevel">The reading level.</param>
+      <param name="ReadingUnits">The reading units.</param>
+      <param name="Agent">The agent.</param>
+      <param name="statusDescription">The status description.</param>
+      <param name="ReadingID">The reading identifier.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <param name="TimeOfReading">The time of reading.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.PostOrganizationSensorEntryJSON(System.String)">
+      <summary>
+
+      </summary>
+      <param name="orgName"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.PostOrganizationSensorEntriesJSON(System.String)">
+      <summary>
+
+      </summary>
+      <param name="orgName"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.CreateOrganizationSensorEntry(System.String,System.String,System.Guid,System.String,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.DateTime})">
+      <summary>
+        Creates the organization sensor entry.
+      </summary>
+      <param name="orgName">Name of the org.</param>
+      <param name="sensorName">Name of the sensor.</param>
+      <param name="sensorGUID">The sensor unique identifier.</param>
+      <param name="sensorType">Type of the sensor.</param>
+      <param name="IsEnabled">
+        if set to <c>true</c> [is enabled].
+      </param>
+      <param name="inAlarm">
+        if set to <c>true</c> [in alarm].
+      </param>
+      <param name="isFaulted">
+        if set to <c>true</c> [is faulted].
+      </param>
+      <param name="ReadingLevel">The reading level.</param>
+      <param name="ReadingUnits">The reading units.</param>
+      <param name="Agent">The agent.</param>
+      <param name="statusDescription">The status description.</param>
+      <param name="ReadingID">The reading identifier.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <param name="TimeOfReading">The time of reading.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.CreateOrganizationSensorEntryWithSensorStatus(System.String,System.String,System.Guid,System.String,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.DateTime})">
+      <summary>
+        Creates the organization sensor entry with sensor status.
+      </summary>
+      <param name="orgName">Name of the org.</param>
+      <param name="sensorName">Name of the sensor.</param>
+      <param name="sensorGUID">The sensor unique identifier.</param>
+      <param name="sensorType">Type of the sensor.</param>
+      <param name="IsEnabled">
+        if set to <c>true</c> [is enabled].
+      </param>
+      <param name="inAlarm">
+        if set to <c>true</c> [in alarm].
+      </param>
+      <param name="isFaulted">
+        if set to <c>true</c> [is faulted].
+      </param>
+      <param name="ReadingLevel">The reading level.</param>
+      <param name="ReadingUnits">The reading units.</param>
+      <param name="Agent">The agent.</param>
+      <param name="sensorStatus">The sensor status.</param>
+      <param name="statusDescription">The status description.</param>
+      <param name="ReadingID">The reading identifier.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <param name="TimeOfReading">The time of reading.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.InsertSensorEntry(DGICommon.Models.Sensors.SensorModel,System.Guid,System.String,System.Nullable{System.DateTime},System.String,System.Boolean)">
+      <summary>
+        a fall through function that uses a sensor model instead of parameters
+      </summary>
+      <param name="sensor"></param>
+      <param name="projGUID"></param>
+      <param name="orgName"></param>
+      <param name="TimeOfReading"></param>
+      <param name="AccumulatedDose"></param>
+      <param name="allowUpdateByReadingID"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.InsertSensorEntry(System.String,System.Guid,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Boolean,System.Nullable{System.Boolean},System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.Guid,System.String,System.Nullable{System.DateTime},System.String,System.Boolean)">
+      <summary>
+        Catchall method that will write an org sensor entry if orgName is entered
+        Otherwise will write an incident sensor entry if the projectGUID is entered
+      </summary>
+      <param name="sensorName">Name of the sensor.</param>
+      <param name="sensorGUID">The sensor unique identifier.</param>
+      <param name="sensorType">Type of the sensor.</param>
+      <param name="latitude">The latitude.</param>
+      <param name="longitude">The longitude.</param>
+      <param name="isEnabled">
+        if set to <c>true</c> [is enabled].
+      </param>
+      <param name="inAlarm">The in alarm.</param>
+      <param name="isFaulted">
+        if set to <c>true</c> [is faulted].
+      </param>
+      <param name="readingLevel">The reading level.</param>
+      <param name="readingUnits">The reading units.</param>
+      <param name="agent">The agent.</param>
+      <param name="sensorStatus">The sensor status.</param>
+      <param name="statusDescription">The status description.</param>
+      <param name="orgName">Name of the org.</param>
+      <param name="projGUID">The proj unique identifier.</param>
+      <param name="ReadingID">The reading identifier.</param>
+      <param name="TimeOfReading">The time of reading.</param>
+      <param name="AccumulatedDose">The accumulated dose.</param>
+      <param name="allowUpdateByReadingID">
+        if set to <c>true</c> [allow update by reading identifier].
+      </param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.CreateDetailedOrganizationSensorEntry(System.IO.Stream,System.String,System.Nullable{System.Double},System.Nullable{System.Double})">
+      <summary>
+        Creates the detailed organization sensor entry.
+      </summary>
+      <param name="xmlStream">The XML stream.</param>
+      <param name="OrganizationName">Name of the organization.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.CreateSensorEntryFromRawText(System.String,System.String,System.Guid,System.String,System.String,System.String,System.String,System.String,System.String,System.IO.Stream,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.DateTime})">
+      <summary>
+        Creates the sensor entry from raw text.
+      </summary>
+      <param name="sensorName">Name of the sensor.</param>
+      <param name="sensorType">Type of the sensor.</param>
+      <param name="sensorGUID">The sensor unique identifier.</param>
+      <param name="sensorFirmware">The sensor firmware.</param>
+      <param name="sensorCommand">The sensor command.</param>
+      <param name="sensorResponse">The sensor response.</param>
+      <param name="ReadingUnits">The reading units.</param>
+      <param name="ReadingID">The reading identifier.</param>
+      <param name="streamLength">Length of the stream.</param>
+      <param name="sensorResponseStream">The sensor response stream.</param>
+      <param name="IncidentGUID">The incident unique identifier.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <param name="TimeOfReading">The time of reading.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException"></exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.ByteToString(System.Byte[],System.Int32,System.Int32)">
+
+      Interprets and maps the result of the "R" command
+
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.GetBitState(System.Byte,System.Int32)">
+
+      Performs bitwise operation against specific bit in a byte to determine if on (true) or off (false)
+
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.StringFromByteArray(System.Byte[],System.Int32,System.Int32)">
+
+      This returns ASCII characters from a byte array
+
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.GetSensorsInProject(System.Guid,System.Int32,System.Boolean)">
+      <summary>
+
+      </summary>
+      <param name="id"></param>
+      <param name="maxNumberOfRecords"></param>
+      <param name="includeOrganizationSensors"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.GetSensorHistory(System.Guid,System.Guid,System.Int32)">
+      <summary>
+        Gets the sensor history.
+      </summary>
+      <param name="id">The identifier.</param>
+      <param name="sensorGUID">The sensor unique identifier.</param>
+      <param name="maxNumberOfRecords">The maximum number of records.</param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.SensorAPIController.GetSensorHistoryByDateRange(System.Guid,System.Guid,System.DateTime,System.Nullable{System.DateTime})">
+      <summary>
+        Gets the sensor history by date range.
+      </summary>
+      <param name="id">The identifier.</param>
+      <param name="sensorGUID">The sensor unique identifier.</param>
+      <param name="startDate">The start date.</param>
+      <param name="endDate">The end date.</param>
+      <returns></returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ToolHomeAPIController">
+      <summary>
+        API controller meant to create/update and list log entries.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ToolHomeAPIController.WriteLogEntry(System.Guid,System.String,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.String)">
+      <summary>
+        Enters a log entry into a project
+      </summary>
+      <param name="id">uniqueidentifier for the project where the log entry is being inserted</param>
+      <param name="ToolName">name of the tool where the log entry belongs</param>
+      <param name="LogDescription">description of the logentry</param>
+      <param name="Latitude">latitude where the log entry took place</param>
+      <param name="Longitude">longitude where the log entry took place</param>
+      <param name="LogXMLData">specially formatted XML with extra data describing the log entry</param>
+      <param name="Priority">priority of the log entry.  Can be VeryLow,Low,MediumLow,Medium,MediumHigh,High,Unknown, and Invisible</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ToolHomeAPIController.GetAttachment(System.Guid)">
+      <summary>
+        Gets an attachment object based on it's LogEntryGUID
+      </summary>
+      <param name="LogEntryGUID">the uniqueidentifier for the attachment</param>
+      <returns>a FullAttachment object</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ToolHomeAPIController.GetAttachmentList(System.Guid,System.String)">
+      <summary>
+        Returns a List of attachments based on id provided.
+      </summary>
+      <param name="id">the uniqueidentifier of the project where the attachments come from</param>
+      <param name="ToolName">a filter for the attachments to show only those belonging to a specific tool.  Can be an empty string</param>
+      <returns>Results do NOT contain the actual attachment, just it's metadata. For that you'll need to call the GetAttachment method</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ToolHomeAPIController.InsertAttachmentFromStream(System.Guid,System.String,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})">
+      <summary>
+        Inserts the attachment from stream. http://www.codeguru.com/csharp/.net/uploading-files-asynchronously-using-asp.net-web-api.htm
+      </summary>
+      <param name="id">The identifier.</param>
+      <param name="FileName">Name of the file.</param>
+      <param name="ToolName">Name of the tool.</param>
+      <param name="AttachmentDescription">The attachment description.</param>
+      <param name="Latitude">The latitude.</param>
+      <param name="Longitude">The longitude.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException">
+      </exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ToolHomeAPIController.DemoteLogEntry(System.Guid,System.Guid)">
+      <summary>
+        Moves a LogEntry to have a Priority of INVISIBLE
+      </summary>
+      <param name="id">uniqueidentifier of the project where the logentry exists</param>
+      <param name="LogEntryGUID">uniqueidentifier of the logentry that you wish to make invisible</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ToolHomeAPIController.DeleteAttachment(System.Guid,System.Guid)">
+      <summary>
+        Removes an attachment from it's associated project
+      </summary>
+      <param name="id">uniqueidentifier of the project where the attachment resides</param>
+      <param name="LogEntryGUID">uniqueidentifier of the attachment that you want deleted</param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.API.ToolHomeAPIController.GetLogEntryList(System.Guid,System.String)">
+      <summary>
+        Returns a list of log entries for a particular Project.
+      </summary>
+      <param name="id">uniqueidentifier of the project where the log entries come from</param>
+      <param name="ToolName">a filter for the log entries to show only those belonging to a specific tool.  Can be an empty string</param>
+      <returns>List of FullLogEntry objects</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.ChatController.GetSimpleModel(System.String)">
+      <summary>
+        simple model used mostly for tools that aren't a chat tool by itself.  like the UCC status screen.  that allows a small chat room screen next to it
+      </summary>
+      <param name="id"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.ChatController.LoadChatMessages(System.String,System.Nullable{System.Boolean},System.String)">
+      <summary>
+        Loads the chat message 'partial view'  used for mobile tool and par team status page
+      </summary>
+      <param name="SelectedRoom"></param>
+      <param name="last24Val"></param>
+      <param name="id"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.FormsController.GetFormInstanceData(System.Guid,System.Guid,System.Guid)">
+      <summary>
+        Will return the FormData for the instance requested as a JSON Object for parsing on the clientside
+      </summary>
+      <param name="id">The identifier.</param>
+      <param name="templateGUID">The template unique identifier.</param>
+      <param name="instanceGUID">The instance unique identifier.</param>
+      <returns></returns>
+      <exception cref="T:System.InvalidOperationException">Could not find instance of the form.</exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.RolesManagerController.GetProjectTypes(System.String,System.String)">
+      <summary>
+        testing method to remotely get the projectTypes
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.RolesManagerController.GetAvailableToolRoleChartJSON(System.String)">
+      <summary>
+        Gets all available positions that have not been assigned to the selectedChart
+      </summary>
+      <param name="id"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.AttachmentController.GetAttachmentPopupScreen(System.Guid,System.Guid)">
+      <summary>
+        quick popup page to view 1 attachment
+      </summary>
+      <param name="LogEntryGUID"></param>
+      <param name="id"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.ChemBioSearchController.SearchGlobalWithoutApi(CoBRAMVC4Portal.Areas.Tools.Models.ChemBioSearchModel)">
+      <summary>
+        this is a HACK that i made mostly because i didn't have enough time to figure out why api authorization wasn't working for ANG sites using
+        windows authentication
+      </summary>
+      <param name="mdl"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.PersonalStatusController.GetCurrentStatusView(System.Guid)">
+      <summary>
+        status list view
+      </summary>
+      <param name="id"></param>
+      <returns>used for mobile only</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Controllers.SensorController.ReturnSensorRespository">
+      <summary>
+        Gets a list of 'tool references', which is basically just a dictionary key/value pair of cobralinkname and their more user-friendly names
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.EditAlertViewModel.DetailsCollection">
+      <summary>
+        A serialized JSON object of a collection of AlertDetails
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Models.IAPModel.Save">
+      <summary>
+        assumes engine was set in constructor
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Areas.Tools.Models.IAPModel.CreateCopy(System.Boolean)">
+      <summary>
+        This operation will SAVE the IAP after creating new forms based on existing forms.
+      </summary>
+      <param name="preserveData"></param>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.BlastDataRoot.Items">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.BlastDataItem.DeviceType">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.BlastDataItem.ImageSource">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.BlastDataItem.Weight">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.XmlDataProvider.Items">
+      <remarks/>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Areas.Tools.Models.XmlDataProviderSource">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.XmlDataProviderSource.Title">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.XmlDataProviderSource.ImageSource">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.XmlDataProviderSource.MassInPounds">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.XmlDataProviderSource.BuildingEvacDistance">
+      <remarks/>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Areas.Tools.Models.XmlDataProviderSource.OutdoorEvacDistance">
+      <remarks/>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.API.baseAPIController.GetProjectCacheAsync(System.Guid)">
+      <summary>
+        Gets a cache of the FullProject object based on projectGUID
+      </summary>
+      <param name="projectGUID"></param>
+      <returns>
+        This is the only one of these caches that i'm kinda iffy on, since the project information could get updated and take a while to show that update
+        it gets called so often however, and updating incidents is so infrequent that it seemed worth the risk.
+      </returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.API.baseAPIController.GetConfigProjectCache(System.String,System.String)">
+      <summary>
+        Get the configuration project GUID from cache
+      </summary>
+      <param name="orgName">The name of the organization for the configuration project</param>
+      <param name="incType">the incident type text for the configuration project</param>
+      <returns></returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Controllers.API.ReferenceDataController">
+      <summary>
+        Useful calls that give us a list of countries, or citys by a country value, etc.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.API.ReferenceDataController.GetStatesByCountryCode(System.String)">
+      <summary>
+        Gets a list of possible countries
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.API.ReferenceDataController.GetCountryList">
+      <summary>
+        Gets a list of possible countries
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.API.ReferenceDataController.GetGeoNameDataByPostalCode(System.String)">
+      <summary>
+        Gets the GeoNameData object by postal code.
+      </summary>
+      <param name="PostalCode">The postal code.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException"></exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.API.ReferenceDataController.GetGeoNameDataByStateNameAbbr(System.String)">
+      <summary>
+        Gets the GeoNameData object by the 2 letter state code
+      </summary>
+      <param name="stateNameAbbr">the 2 letter state code</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException"></exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.API.ReferenceDataController.GetGeoNameDataByStateName(System.String)">
+      <summary>
+        Gets the GeoNameData object by state.
+      </summary>
+      <param name="stateName">Name of the state.</param>
+      <returns></returns>
+      <exception cref="T:System.Web.Http.HttpResponseException"></exception>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetNormalMap(DGI.CoBRAPlugInSDK.KMLObjects.Ver22.KmlType,System.Guid)">
+      <summary>
+        will return a normal map with the passed kml object as a feature layer.
+      </summary>
+      <param name="kmlLayer"></param>
+      <param name="projectGUID">used to retrieve a starting map point if the KML is null/empty</param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetMapStartLocation(System.Guid,System.Nullable{System.Double}@,System.Nullable{System.Double}@)">
+      <summary>
+        will attempt to get location of project
+        if no location is valid, it will try to get org location
+      </summary>
+      <param name="projectGUID"></param>
+      <param name="lat"></param>
+      <param name="lon"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetBigMap(System.Guid,System.String)">
+      <summary>
+        Will return a map with incident data and marked generic map data
+      </summary>
+      <param name="projectGUID"></param>
+      <param name="imagePath"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetProjectCache(System.Guid)">
+      <summary>
+        Gets a cache of the FullProject object based on projectGUID
+      </summary>
+      <param name="projectGUID"></param>
+      <returns>
+        This is the only one of these caches that i'm kinda iffy on, since the project information could get updated and take a while to show that update
+        it gets called so often however, and updating incidents is so infrequent that it seemed worth the risk.
+      </returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetProjectTypeCache(System.String,System.String)">
+      <summary>
+        Gets a Project Type object based on the organization and incident type 'name' for that project type
+      </summary>
+      <param name="orgName"></param>
+      <param name="incType">defaults to 'Actual' if left blank</param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetProjectTypeCache(System.Guid)">
+      <summary>
+        Gets a project Type object based on the GUID of the project type
+      </summary>
+      <param name="projectTypeGUID">ProjectTypeGUID</param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetConfigProjectCache(System.String,System.Guid)">
+      <summary>
+        Get the configuration project GUID from cache
+      </summary>
+      <param name="orgName">The name of the organization for the configuration project</param>
+      <param name="projectGUID">the project that contains the appropriate project type for the configuration project</param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetConfigProjectCache(System.String,System.String)">
+      <summary>
+        Get the configuration project GUID from cache
+      </summary>
+      <param name="orgName">The name of the organization for the configuration project</param>
+      <param name="incType">the incident type text for the configuration project</param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetToolReferenceCache">
+      <summary>
+        Gets a list of 'tool references', which is basically just a dictionary key/value pair of cobralinkname and their more user-friendly names
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.ConsumerKeyManager">
+      <summary>
+        Gets a list of 'tool references', which is basically just a dictionary key/value pair of cobralinkname and their more user-friendly names
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetdeCartaTranslator">
+      <summary>
+        Gets a list of 'tool references', which is basically just a dictionary key/value pair of cobralinkname and their more user-friendly names
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetAvailableTools">
+      <summary>
+        Gets a list of all the available tools, based on the 'internal list' object, which is an auto-generated list by the client.
+        This is more useful than using the 'toolreference' list because that list contains some web only tools, and is used just for making friendly names.
+        this is a list of tools that actually exist
+      </summary>
+      <returns>a list used for dropdowns</returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetClientToolData(System.String)">
+      <summary>
+        Gets the 'internal tool' object based on cobralink name.  This object contains all the client dll/assembly info about the tool
+      </summary>
+      <param name="cobralinkname">unique identifier for the tool</param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.baseController.GetCachedUserValues">
+      <summary>
+        used for cached user preference values, like alert window refresh rate/etc.
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.CustomRedirectController.GetInternalToolList">
+      <summary>
+        gets a list of all the client's 'internal tools' and their assembly information
+      </summary>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.Controllers.HomeController._GetPositionList(Kendo.Mvc.UI.DataSourceRequest,System.Guid)">
+      <summary>
+        this gets a list of all the possible positions for an incident
+      </summary>
+      <param name="request"></param>
+      <param name="id"></param>
+      <returns>i'd rather not use this, since it means calling the position list twice, but i might have to</returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Controllers.ManageController">
+      <summary>
+        this exists JUST because it comes with a new OWIN build of MVC5, and it's here while i decide if there is anything useful before i pare it down.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.CustomClasses.Authorization.APIAuthorization">
+      <summary>
+        The API version of custom authorization
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.CustomClasses.Authorization.HandleAPIExceptionAttribute">
+      <summary>
+        Attribute for all API calls that handles basic exception handling
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.CustomClasses.Authorization.ChallengeResult">
+      <summary>
+        used by external logins.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.CustomClasses.Authorization.TokenHolder">
+      <summary>
+        An idea to pass tokens to all my web api calls, but really not a good idea.  holding the tokens in session kinda sucks
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.CobraPasswordHasher">
+      <summary>
+        Use Custom approach to verify password
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.CustomWinPrincipal">
+      <summary>
+        trying to fix http://opserver2/gemini5/project/Web4434/10038/item/111592, using suggestion found at bottom of
+        https://www.leapinggorilla.com/Blog/Read/1015/custom-role-providers-with-windows-authentication---part-2-roleprovider-and-integration
+        it does not immediately work for me
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.CustomUserManager.OnlineUsers(System.String)">
+      <summary>
+        users that are currently online.  Right now this is kept track of by using a caching system
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.CustomUserManager.AddOnlineUser(DGI.CoBRA.Web.BusinessObjects.WebCoBRAUser)">
+      <summary>
+        add a user to the current online user cache
+      </summary>
+      <param name="value"></param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.CustomUserManager.RemoveOnlineUser(DGI.CoBRA.Web.BusinessObjects.WebCoBRAUser)">
+      <summary>
+        remove a user from the online user cache
+      </summary>
+      <param name="value"></param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.CustomUserManager.RemoveOnlineUser(System.Guid)">
+      <summary>
+        remove a user from the online user cache
+      </summary>
+      <param name="CoBRAUserGUID"></param>
+    </member>
+    <member name="T:CoBRAMVC4Portal.DependencyResolution.StructureMapDependencyScope">
+      <summary>
+        The structure map dependency scope.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.DependencyResolution.StructureMapWebApiDependencyResolver">
+      <summary>
+        The structure map dependency resolver.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.DependencyResolution.StructureMapWebApiDependencyResolver.#ctor(StructureMap.IContainer)">
+      <summary>
+        Initializes a new instance of the <see cref="T:CoBRAMVC4Portal.DependencyResolution.StructureMapWebApiDependencyResolver"/> class.
+      </summary>
+      <param name="container">
+        The container.
+      </param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.DependencyResolution.StructureMapWebApiDependencyResolver.BeginScope">
+      <summary>
+        The begin scope.
+      </summary>
+      <returns>
+        The System.Web.Http.Dependencies.IDependencyScope.
+      </returns>
+    </member>
+    <member name="T:CoBRAMVC4Portal.DependencyResolution.StructureMapWebApiDependencyScope">
+      <summary>
+        The structure map web api dependency scope.
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.IdentityConfig">
+      <summary>
+        shared methods class to have easy access to user info
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.IdentityConfig.LoginUserData">
+      <summary>
+        The 'extra' data of a user.  right now only used for the twitter feed
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.IdentityConfig.RemoveUserSessionValue">
+      <summary>
+        Remove the current users 'CurrentUser' value from cache, so it can be refreshed later.
+      </summary>
+    </member>
+    <member name="P:CoBRAMVC4Portal.IdentityConfig.JustLoggedIn">
+      <summary>
+        mostly needed to see if the user should see the 'notice of consent' banner or not.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.IdentityConfig.RemoveUserRoleFromSession">
+      <summary>
+        Removes personal user role from their 'session' variable.
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.KMLShared.KMLGenerator.ExportConfigProjectAsKMLType(System.Collections.Generic.List{System.String})">
+      <summary>
+        returns the config project as a DocumentType for the current org and passed Project Type
+      </summary>
+      <param name="projectTypeList"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.KMLShared.KMLGenerator.ExportConfigProjectAsKMLType(System.String)">
+      <summary>
+        returns the config project as a DocumentType for the current org and passed Project Type
+      </summary>
+      <param name="projectType"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.KMLShared.KMLGenerator.GetZonesKML(System.String,System.String)">
+      <summary>
+        Returns a KML object holding all the zones in the org/project type
+      </summary>
+      <param name="orgName"></param>
+      <param name="projectType"></param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.KMLShared.KMLGenerator.GetZonesKML(System.Guid)">
+      <summary>
+        Returns a KML object holding all the zones in the org/project type
+      </summary>
+      <param name="projectGUID">The project from which to retrieve the zones and relevant status information</param>
+      <returns></returns>
+    </member>
+    <member name="M:CoBRAMVC4Portal.KMLShared.KMLStyleManager.AddStyle(DGI.CoBRAPlugInSDK.KMLObjects.Ver22.StyleType,System.String)">
+      <summary>
+        returns the id of the style that was added (or already existed)
+      </summary>
+      <param name="style"></param>
+      <param name="featureName"></param>
+      <returns></returns>
+      <remarks></remarks>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Models.UserLoginModel">
+      <summary>
+        this class is ONLY for the in memory tally of users and when they logged in
+        http://opserver2/gemini5/project/Web4434/10038/item/111598
+      </summary>
+    </member>
+    <member name="T:CoBRAMVC4Portal.Models.ServiceAuditLog">
+      <summary>
+        Audit log that describes each access to the CoBRA Services
+      </summary>
+      <remarks></remarks>
+    </member>
+    <member name="P:CoBRAMVC4Portal.Models.ProjectModel.MapZoomLocation">
+      <summary>
+        Location not used for saving, just used to tell the map where to zoom, without actually saving data.  see http://opserver2/gemini5/project/Web4433/10033/item/101113
+      </summary>
+    </member>
+    <member name="M:CoBRAMVC4Portal.DI.CommonConventions.RegisterDefaultConventions(System.Action{System.Type,System.Type},System.Reflection.Assembly[],System.Reflection.Assembly[],System.Type[],System.String)">
+      <summary>
+        Registers all single types in a set of assemblies that meet the following criteria:
+        1) The name of the type matches the interface name (I[TypeName] = [TypeName]) or
+        2) The name of the type matches the interface name + the suffix "Adapter" (I[TypeName] = [TypeName]Adapter)
+        3) The class does not have a string parameter in the constructor
+        4) The class is not decorated with the [ExcludeFromAutoRegistrationAttribute]
+      </summary>
+      <param name="registerMethod">
+        The method on the DI container used to register a type to an abstraction.
+        Should be in the format (interfaceType, implementationType) => SomeMethod(interfaceType, implementationType)
+        or similar.
+      </param>
+      <param name="interfaceAssemblies">
+        An array of assemblies to scan for the interface types. These assemblies
+        must be referenced within this project. Typically, you will just want to use the MvcSiteMapProvider
+        assembly unless you decide to use <see cref="T:CoBRAMVC4Portal.DI.CommonConventions"/> throughout your project.
+      </param>
+      <param name="implementationAssemblies">
+        An array of assemblies to scan for the implementation types.
+        This array should contain all of the assemblies where you have defined types that will be injected
+        into MvcSiteMapProvider.
+      </param>
+      <param name="excludeTypes">
+        An array of <see cref="T:System.Type"/> used to manually exclude types if
+        you intend to register them manually. Use this parameter if you want to inject your own implementation
+        and therefore don't want the default type automatically registered.
+      </param>
+      <param name="excludeRegEx">
+        A regular expression that can be used to exclude types based on the type
+        name (excluding the namespace name). All types that match the regular expression will be excluded.
+      </param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.DI.CommonConventions.RegisterAllImplementationsOfInterface(System.Action{System.Type,System.Type},System.Type[],System.Reflection.Assembly[],System.Type[],System.String)">
+      <summary>
+        Registers all of the types that implement the passed in interfaceTypes with the DI container so they can be
+        resolved as an <see cref="T:System.Collections.Generic.IEnumerable`1"/> of values (where T is the interface type).
+
+        This overload is for DI containers that allow the use of multiple registration method calls, one for
+        each implementation of the interface.
+      </summary>
+      <param name="registerMethod">
+        The method of the DI container used to register a single implementation, which will be
+        called one time per implementation found to register each implementation of the type. Should be in the format
+        (interfaceType, implementationType) => SomeMethod(interfaceType, implementationType) or similar.
+      </param>
+      <param name="interfaceTypes">The interfaces to limit the registration to. If empty, no types will be registered.</param>
+      <param name="implementationAssemblies">
+        An array of assemblies to scan for the implementation types.
+        This array should contain all of the assemblies where you have defined types that will be injected
+        into MvcSiteMapProvider.
+      </param>
+      <param name="excludeTypes">
+        An array of <see cref="T:System.Type"/> used to manually exclude types if
+        you intend to register them manually. Use this parameter if you want to inject your own implementation
+        and therefore don't want the default type automatically registered.
+      </param>
+      <param name="excludeRegEx">
+        A regular expression that can be used to exclude types based on the type
+        name (excluding the namespace name). All types that match the regular expression will be excluded.
+      </param>
+    </member>
+    <member name="M:CoBRAMVC4Portal.DI.CommonConventions.RegisterAllImplementationsOfInterfaceSingle(System.Action{System.Type,System.Collections.Generic.IEnumerable{System.Type}},System.Type[],System.Reflection.Assembly[],System.Type[],System.String)">
+      <summary>
+        Registers all of the types that implement the passed in interfaceTypes with the DI container so they can be
+        resolved as an <see cref="T:System.Collections.Generic.IEnumerable`1"/> of values (where T is the interface type).
+
+        This overload is for DI containers that require the use of a multiple registration method call for
+        all implementations a given interface.
+      </summary>
+      <param name="registerMethod">
+        The method of the DI container used to register an array of implementations, which will be
+        called only one time to register all of the implementations of the type. Should be in the format
+        (interfaceType, implementationTypes) => SomeMethod(interfaceType, implementationTypes) or similar, where
+        implementationTypes is a .
+      </param>
+      <param name="interfaceTypes">The interfaces to limit the registration to. If empty, no types will be registered.</param>
+      <param name="implementationAssemblies">
+        An array of assemblies to scan for the implementation types.
+        This array should contain all of the assemblies where you have defined types that will be injected
+        into MvcSiteMapProvider.
+      </param>
+      <param name="excludeTypes">
+        An array of <see cref="T:System.Type"/> used to manually exclude types if
+        you intend to register them manually. Use this parameter if you want to inject your own implementation
+        and therefore don't want the default type automatically registered.
+      </param>
+      <param name="excludeRegEx">
+        A regular expression that can be used to exclude types based on the type
+        name (excluding the namespace name). All types that match the regular expression will be excluded.
+      </param>
+    </member>
+  </members>
+</doc>

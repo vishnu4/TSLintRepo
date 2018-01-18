@@ -1,0 +1,17 @@
+<package>
+  <metadata>
+    <id>CoBRAMVC4Portal</id>
+    <version>4.4.3.6</version>
+    <authors>philjohnson3@gmail.com</authors>
+    <owners>philjohnson3@gmail.com</owners>
+    <licenseUrl>http://cobra2020.com/</licenseUrl>
+    <projectUrl>http://cobra2020.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>COBRA software is the best known and most widely accepted Incident Management and Decision Support System currently used across the Department of Defense and civilian First Responders. </description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="build\**\*.*" target="build" />
+    <file src="Scripts\Controllers\**\*.map" target="Scripts\Controllers" />
+  </files>
+</package>

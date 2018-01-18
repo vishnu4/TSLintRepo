@@ -1,0 +1,15 @@
+{
+  "name": "CoBRAMVC4Portal",
+  "version": "4.4.3",
+  "description": "Incident Management and Decision Support System",
+  "authors": [
+    "philjohnson3@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "http://cobra2020.com/",
+  "private": true,
+  "dependencies": {
+    "twitter-bootstrap-wizard": "^1.4.2",
+    "usng.js": "^0.2.2"
+  }
+}
